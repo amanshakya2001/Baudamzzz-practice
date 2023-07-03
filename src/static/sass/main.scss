@@ -1,0 +1,39 @@
+// // css
+// body{
+//     background-color: black;
+// }
+// body h1{
+//     color:green($color: #000000)
+// }
+// body .header .avtar img{
+//     background-color: green($color: #000000);
+// }
+// body .header .avtar{
+//     width: 10px;
+//     height: 10px;
+// }
+
+// scss
+body{
+    background-color: red !important;
+    height: 100vh !important;
+    h1{
+        color:green;
+
+        &.main-heading{
+            font-size: 10px;
+        }
+        &.secondary-heading{
+            font-size: 20px;
+        }
+    }
+
+    .header .avtar{
+        width: 10px;
+        height: 10px;
+
+        img{
+            background-color: green($color: #000000);
+        }
+    }
+}
